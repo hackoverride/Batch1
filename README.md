@@ -1,2 +1,4 @@
-# Batch1
-Batch scripting v1
+# First Batch Scripting Ideas
+
+Auth @M_Lund
+
