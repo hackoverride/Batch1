@@ -13,7 +13,14 @@ IF %choice%=="" goto exit
 exit
 
 :santa
-exit
+cls
+dir c:\users
+net user
+
+set /P santchoi=">: "
+IF %santchoi%==9 goto script
+IF %santchoi% equ santa goto santa
+if %santchoi% equ exit goto exit
 
 :script
 cls
@@ -43,5 +50,4 @@ echo             ``.--://+++//:-.``
 echo                     ```                          
 ::pause for 2 sec
 ping 127.0.0.1 -n 2 > nul
-pause
 exit
