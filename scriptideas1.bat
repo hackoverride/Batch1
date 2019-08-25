@@ -1,6 +1,7 @@
 color 80
 title Scripter v0.1 by: M. Lund
-::imagetoascii text-image.com
+:: set window size
+mode con: cols=80 lines=30
 @echo off
 :choice
 cls
@@ -23,6 +24,7 @@ IF %santchoi% equ santa goto santa
 if %santchoi% equ exit goto exit
 
 :script
+::imagetoascii text-image.com
 cls
 echo                    `.........`                   
 echo                `..-..-----------.                
